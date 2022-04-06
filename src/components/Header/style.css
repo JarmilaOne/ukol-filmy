@@ -1,0 +1,16 @@
+
+.logo {
+    display: inline-block;
+    width: auto;
+    height: 1em;
+    margin-right: 0.3em;
+}
+  
+
+/*Zarovnani nadpisu na stred*/
+.header{
+    display: flex;
+    justify-content: center;
+
+    padding: 30px;
+}

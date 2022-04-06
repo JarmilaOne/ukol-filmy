@@ -1,0 +1,55 @@
+:root{
+    --c-primary: rgb(181, 189, 207);
+    --c-secondary:rgb(239, 89, 73);
+    --c-thirdary: rgb(246, 246, 247);
+}
+
+/*Grid*/
+.movie{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    /*Maximalni sirka komponenty*/
+    max-width: 500px;
+
+    border: 1px solid var(--c-primary);
+    background-color: var(--c-thirdary);
+
+}
+
+.movie__poster, .movie__text{
+    padding: 10px;
+}
+
+/*Movie left*/
+.movie__poster{
+    /*Maximalni sirka*/
+    max-width: 200px;
+}
+
+.movie__image{
+    width: 100%;
+    display: block;
+}
+
+.movie__rating{
+    display: block;
+    text-align: center;
+
+    background-color: var(--c-secondary);
+}
+
+/*Movie right*/
+.movie__title{
+    padding: 20px 0 20px 0;
+
+    color: var(--c-secondary);
+
+    font-size: 30px;
+}
+
+.movie__year, .movie__genre, .movie__director{
+    padding-top: 5px;
+}
+
+
